@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Koutang Djotcha Steeve Brayan</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile-header">
+                <!-- Photo de profil -->
+                <img src="images/profile.jpg" alt="Photo de Koutang Djotcha Steeve Brayan" class="profile-img">
+                <div>
+                    <h1>Koutang Djotcha Steeve Brayan</h1>
+                    <h2>Étudiant en Informatique</h2>
+                    <p>École KEYCE INFORMATIQUE ET IA - Filière RSI niveau B1c</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- le menu de navigation -->
+    <nav>
+        <ul>
+            <li><a href="#competences"><i class="fas fa-code"></i> Compétences</a></li>
+            <li><a href="#projets"><i class="fas fa-project-diagram"></i> Projets</a></li>
+            <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenu de la page  -->
+    <main>
+        <!-- zone Compétences -->
+        <section id="competences" class="section">
+            <div class="container">
+                <h2><i class="fas fa-laptop-code"></i> Mes Compétences</h2>
+                
+                <!-- Boutons des compétences avec icônes -->
+                <div class="competences-boutons">
+                    <button class="competence-btn" data-competence="html">
+                        <i class="fab fa-html5"></i> HTML5
+                    </button>
+                    <button class="competence-btn" data-competence="css">
+                        <i class="fab fa-css3-alt"></i> CSS3
+                    </button>
+                    <button class="competence-btn" data-competence="javascript">
+                        <i class="fab fa-js-square"></i> JavaScript
+                    </button>
+                    <button class="competence-btn" data-competence="git">
+                        <i class="fab fa-git-alt"></i> Git
+                    </button>
+                    <button class="competence-btn" data-competence="responsive">
+                        <i class="fas fa-mobile-alt"></i> Responsive
+                    </button>
+                    <button class="competence-btn" data-competence="python">
+                        <i class="fab fa-python"></i> Python
+                    </button>
+                </div>
+                
+                <!-- Description des compétences -->
+                <div id="description-competence" class="description">
+                    <p>Cliquez sur une compétence pour voir sa description.</p>
+                </div>
+                
+                <!-- Compteur de clics -->
+                <div class="compteur-competences">
+                    <h3><i class="fas fa-eye"></i> Compétences vues :</h3>
+                    <ul id="compteur-clics"></ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Projets -->
+        <section id="projets" class="section">
+            <div class="container">
+                <h2><i class="fas fa-tasks"></i> Projets Réalisés</h2>
+                
+                <!-- Projet 1 -->
+                <div class="projet">
+                    <img src="images/ecommerce.jpg" alt="Site E-commerce" class="projet-img">
+                    <div class="projet-content">
+                        <h3>Site E-commerce</h3>
+                        <p>Développement d'un site e-commerce avec panier fonctionnel en JavaScript.</p>
+                        <a href="https://github.com/brayan464/projet-git.git" target="_blank">
+                            <i class="fab fa-github"></i> Voir sur GitHub
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Projet 2 -->
+                <div class="projet">
+                    <img src="images/meteo.jpg" alt="Application Météo" class="projet-img">
+                    <div class="projet-content">
+                        <h3>Application Météo</h3>
+                        <p>Application météo utilisant une API publique pour afficher les prévisions.</p>
+                        <a href="https://github.com/brayan464/projet-git.git" target="_blank">
+                            <i class="fab fa-github"></i> Voir sur GitHub
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Projet 3 -->
+                <div class="projet">
+                    <img src="images/memory.jpg" alt="Jeu Memory" class="projet-img">
+                    <div class="projet-content">
+                        <h3>Jeu Memory</h3>
+                        <p>Jeu de mémoire avec compteur de tours et timer implémenté en JavaScript.</p>
+                        <a href="https://github.com/brayan464/projet-git.git" target="_blank">
+                            <i class="fab fa-github"></i> Voir sur GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2><i class="fas fa-address-card"></i> Contact</h2>
+                
+                <div class="info-contact">
+                    <p><i class="fas fa-phone"></i> <strong>Téléphone :</strong> +237 681448139</p>
+                    <p><i class="fas fa-envelope"></i> <strong>Email :</strong> brayankoutang7@gmail.com</p>
+                    <p><i class="fab fa-linkedin"></i> <strong>LinkedIn :</strong> 
+                        <a href="https://www.linkedin.com/in/brayan-undefined-236b12371" target="_blank">
+                            linkedin.com/in/brayan-undefined-236b12371
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Koutang Djotcha Steeve Brayan - Tous droits réservés</p>
+            <div class="social-icons">
+                <a href="https://github.com/brayan464" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/brayan-undefined-236b12371" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:brayankoutang7@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
